@@ -157,9 +157,26 @@ p {
 }
 
 .card:hover {
-    background-color: rgb(30, 0, 181);
+    background-color: rgb(116, 184, 189);
     color: white;
     cursor: pointer;
     transform: scale(1.03);
     transition: all 1s ease;
+}
+
+@media screen and (max-width: 900px) {
+    .main-section-work {
+        height: 1000px;
+        background: none;
+    }
+    /* remove the background grey */
+
+}
+
+@media screen and (max-width: 900px) {
+    .main-section {
+        height: 1000px;
+        background: none;
+    }
+
 }
