@@ -8,6 +8,7 @@ body {
     background-color: black;
 }
 
+/* Header Section */
 .header {
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -20,6 +21,7 @@ body {
     font-size: 50px;
 }
 
+/* Nav Section */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,6 +48,7 @@ p {
     font-size: 16px;
 }
 
+/* Hero Section */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,6 +58,7 @@ p {
     background-position: center;
 }
 
+/* Main Section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -85,32 +89,10 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 50px;
-    height: 500px;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #5d5f61;
     color: black;
-}
-
-.main-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.main-section-work h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-    color: whitesmoke;
 }
 
 .card {
@@ -134,7 +116,7 @@ p {
     color: whitesmoke;
   }
 
-  .card-1 {
+.card-1 {
     background-image: url('../Images/Capture.JPG');
   }
 
@@ -157,16 +139,39 @@ p {
 }
 
 .card:hover {
-    background-color: rgb(116, 184, 189);
+    background-color: rgb(0, 4, 255);
     color: white;
     cursor: pointer;
     transform: scale(1.03);
     transition: all 1s ease;
 }
 
+.main-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.main-section-work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Foot Section */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
 @media screen and (max-width: 900px) {
     .main-section-work {
-        height: 1000px;
+        height: auto;
         background: none;
     }
     /* remove the background grey */
@@ -175,7 +180,7 @@ p {
 
 @media screen and (max-width: 900px) {
     .main-section {
-        height: 1000px;
+        height: auto;
         background: none;
     }
 
