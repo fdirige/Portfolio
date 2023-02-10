@@ -120,6 +120,10 @@ p {
     background-image: url('../Images/Capture.JPG');
   }
 
+.card-2 {
+    background-image: url('../Images/Capture2.JPG');
+}
+
 .card h2 {
     padding: 10px;
 }
