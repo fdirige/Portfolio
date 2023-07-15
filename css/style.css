@@ -124,6 +124,14 @@ p {
     background-image: url('../Images/Capture2.JPG');
 }
 
+.card-3 {
+    background-image: url('../Images/StadiumTracker2.JPG');
+}
+
+.card-4 {
+    background-image: url('../Images/Project3.JPG');
+}
+
 .card h2 {
     padding: 10px;
 }
